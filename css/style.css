@@ -1,0 +1,73 @@
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: #eee;
+    padding: 80px;
+}
+
+.section:nth-child(2n) {
+    background-color: white;
+}
+
+.title {
+    font-size: 48px;
+    color: #888;
+    font-weight: 100;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.case {}
+
+.name {
+    font-size: 32px;
+    color: #444;
+    font-weight: 200;
+    text-align: center;
+    margin: 60px;
+}
+
+.pair {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-box-pack: center;
+    -ms-box-align: center;
+}
+
+.card {
+    flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    max-width: 590px;
+    margin: 0 10px;
+}
+
+.lang {
+    font-size: 22px;
+    color: #666;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+
+.code {
+    background-color: white;
+    color: #444;
+    font-family: Menlo, monospace;
+    padding: 0.5em;
+}
+.section:nth-child(2n) .code {
+    background-color: #eee;
+}
+
