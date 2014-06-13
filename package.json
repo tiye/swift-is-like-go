@@ -1,15 +1,31 @@
 {
   "name": "swift-is-like-go",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Swift is like Go ------",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jiyinyiyong",
-  "license": "MIY",
+  "license": "MIT",
   "devDependencies": {
     "mission": "0.0.7",
     "shelljs": "^0.3.0"
-  }
+  },
+  "dependencies": {
+    "mission": "^0.0.7",
+    "shelljs": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiyinyiyong/swift-is-like-go.git"
+  },
+  "keywords": [
+    "swift",
+    "golang"
+  ],
+  "bugs": {
+    "url": "https://github.com/jiyinyiyong/swift-is-like-go/issues"
+  },
+  "homepage": "https://github.com/jiyinyiyong/swift-is-like-go"
 }
