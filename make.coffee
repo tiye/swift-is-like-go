@@ -22,12 +22,10 @@ target.watch = ->
   station = mission.reload()
 
   mission.watch
-    files: ['cirru/']
+    files: ['cirru/', 'code/']
     trigger: (filepath, extname) ->
-      switch extname
-        when '.cirru'
-          cirru inDev: yes
-          station.reload project
+      cirru inDev: yes
+      station.reload project
 
 target.patch = ->
   mission.bump
@@ -43,6 +41,8 @@ target.rsync = ->
       exclude: [
         'node_modules/'
         'bower_components/'
+        "code"
+        'cirru'
         'coffee'
         'README.md'
         'js'
