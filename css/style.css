@@ -71,3 +71,16 @@ body * {
     background-color: #eee;
 }
 
+#fork-me {
+    position: absolute;
+    right: 0;
+}
+
+#note {
+    font-size: 24px;
+    color: #A7A7A7;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(221, 221, 221);
+    font-weight: 100;
+}

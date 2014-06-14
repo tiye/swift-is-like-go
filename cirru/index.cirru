@@ -7,6 +7,11 @@ html
     meta (:charset utf-8)
     link (:rel stylesheet) (:href css/style.css)
   body
+    a (:target _blank)
+      :href https://github.com/jiyinyiyong/swift-is-like-go
+      img#fork-me (:src http://jiyinyiyong.u.qiniudn.com/fork-me.png)
+    #note
+      = "This project is not finished, fork to help me improve it :)"
     .section
       .title BASICS
       .case (.name "Hello World") $ .pair
