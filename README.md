@@ -9,6 +9,12 @@ Especially for the Object Oriented Programming part.
 
 It's not finished yet since I don't some syntaxs of them.
 
+### Better one
+
+Yes, there is a better one on **Hyperpolyglot**:
+
+C, Go, Swift: a side-by-side reference sheet http://hyperpolyglot.org/c
+
 ### Inspired
 
 * like Scala: https://leverich.github.io/swiftislikescala/

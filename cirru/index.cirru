@@ -11,7 +11,12 @@ html
       :href https://github.com/jiyinyiyong/swift-is-like-go
       img#fork-me (:src http://jiyinyiyong.u.qiniudn.com/fork-me.png)
     #note
-      = "This project is not finished, fork to help me improve it :)"
+      = "This project is not completed, fork to help me improve it. :)"
+      br
+      = "You may also check a better one:"
+      br
+      a (:href http://hyperpolyglot.org/c)
+        = "Hyperpolyglot C, Go, Swift: a side-by-side reference sheet"
     .section
       .title BASICS
       .case (.name "Hello World") $ .pair

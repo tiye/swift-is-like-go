@@ -83,4 +83,5 @@ body * {
     padding: 20px;
     background-color: rgb(221, 221, 221);
     font-weight: 100;
+    line-height: 2em;
 }
