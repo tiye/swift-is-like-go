@@ -2,32 +2,34 @@ type NamedShape struct {
     numberOfSides int
     name string
 }
-func (self *NamedShape) init_(name string) {
-    self.name = name
+func NewNamedShape(name string) *NamedShape {
+	return &NamedShape{
+		name: name,
+	}
 }
-func (self *NamedShape) simpleDescription() string {
-    return fmt.Sprintf("A shape with %d sides.", self.numberOfSides)
+func (p *NamedShape) SimpleDescription() string {
+    return fmt.Sprintf("A shape with %d sides.", p.numberOfSides)
 }
 
 type Square struct {
+    *NamedShape
     sideLength float64
-    NamedShape
 }
-func (self *Square) init(sideLength float64, name string) {
-    self.sideLength = sideLength
-    self.init_(name)
+func NewSquare(sideLength float64, name string) *Square {
+	return &Square{
+		NamedShape: NewNamedShape(name),
+		sideLength: sideLength,
+	}
 }
-func (self *Square) area() float64 {
-    return self.sideLength * self.sideLength
+func (p *Square) Area() float64 {
+    return self.sideLength * p.sideLength
 }
-func (self *Square) simpleDescription() string {
-    return fmt.Sprintf("A square with sides of length %d.",
-        self.sideLength)
+func (p *Square) SimpleDescription() string {
+    return fmt.Sprintf("A square with sides of length %d.", p.sideLength)
 }
 
 func main() {
-    var test = Square{}
-    test.init(5.2, "square")
-    test.area()
-    test.simpleDescription()
+    a := NewSquare(5.2, "square")
+    a.Area()
+    a.SimpleDescription()
 }

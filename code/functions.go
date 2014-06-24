@@ -1,5 +1,5 @@
-func greet(name string, day string) string {
-    return fmt.Sprintf("Hello %s, today is %s.", name, day)
+func greet(name, day string) string {
+    return fmt.Sprintf("Hello %v, today is %v.", name, day)
 }
 
 func main() {
