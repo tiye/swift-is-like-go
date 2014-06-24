@@ -8,4 +8,5 @@ func sumOf(numbers ...int) int {
 
 func main() {
     sumOf(42, 597, 12)
+    sumOf([]int{42, 597, 12}...)
 }

@@ -66,6 +66,7 @@ body * {
     color: #444;
     font-family: Menlo, monospace;
     padding: 0.5em;
+    overflow-x: auto;
 }
 .section:nth-child(2n) .code {
     background-color: #eee;

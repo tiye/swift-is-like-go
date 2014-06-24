@@ -1,6 +1,6 @@
-const names = [4]string{"Anna", "Alex", "Brian", "Jack"}
+names := [4]string{"Anna", "Alex", "Brian", "Jack"}
 for i, value := range(names) {
-    println(fmt.Sprintf("Person %d is called %s", (i + 1), value))
+    fmt.Printf("Person %v is called %v\n", (i + 1), value)
 }
 // Person 1 is called Anna
 // Person 2 is called Alex
