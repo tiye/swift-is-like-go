@@ -1,5 +1,5 @@
 var (
-	emptyArray []string
-	emptyDictionary = make(map[interface{}]interface{})
-	emptyArrayNoType []interface{}
+    emptyArray []string
+    emptyDictionary = make(map[interface{}]interface{})
+    emptyArrayNoType []interface{}
 )

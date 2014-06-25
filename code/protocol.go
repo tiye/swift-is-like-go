@@ -1,7 +1,7 @@
 type Nameabler interface {
-	func Name() string
+    func Name() string
 }
 
 func F(x Nameabler) {
-	fmt.Println("Name is " + x.Name())
+    fmt.Println("Name is " + x.Name())
 }

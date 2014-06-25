@@ -3,9 +3,9 @@ type NamedShape struct {
     name string
 }
 func NewNamedShape(name string) *NamedShape {
-	return &NamedShape{
-		name: name,
-	}
+    return &NamedShape{
+        name: name,
+    }
 }
 func (p *NamedShape) SimpleDescription() string {
     return fmt.Sprintf("A shape with %d sides.", p.numberOfSides)
@@ -16,10 +16,10 @@ type Square struct {
     sideLength float64
 }
 func NewSquare(sideLength float64, name string) *Square {
-	return &Square{
-		NamedShape: NewNamedShape(name),
-		sideLength: sideLength,
-	}
+    return &Square{
+        NamedShape: NewNamedShape(name),
+        sideLength: sideLength,
+    }
 }
 func (p *Square) Area() float64 {
     return self.sideLength * p.sideLength
