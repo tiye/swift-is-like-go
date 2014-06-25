@@ -1,6 +1,6 @@
 {
   "name": "swift-is-like-go",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Swift is like Go ------",
   "main": "index.js",
   "scripts": {

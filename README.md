@@ -7,7 +7,9 @@ Page: http://repo.tiye.me/swift-is-like-go/
 Swift is not that like Go, though.
 Especially for the Object Oriented Programming part.
 
-It's not finished yet since I don't some syntaxs of them.
+### Contributors
+
+* [@chai2010](https://github.com/chai2010/swift-is-like-go)
 
 ### Better one
 
