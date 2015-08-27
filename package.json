@@ -1,12 +1,12 @@
 {
-  "name": "swift-is-like-go",
+  "name": "swift-is-like-kotlin",
   "version": "0.0.2",
-  "description": "Swift is like Go ------",
+  "description": "Swift is like Kotlin ------",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jiyinyiyong",
+  "author": "jiyinyiyong, nilhcem",
   "license": "MIT",
   "devDependencies": {
     "mission": "0.0.7",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jiyinyiyong/swift-is-like-go.git"
+    "url": "https://github.com/Nilhcem/swift-is-like-kotlin.git"
   },
   "keywords": [
     "swift",
-    "golang"
+    "kotlin"
   ],
   "bugs": {
-    "url": "https://github.com/jiyinyiyong/swift-is-like-go/issues"
+    "url": "https://github.com/Nilhcem/swift-is-like-kotlin/issues"
   },
-  "homepage": "https://github.com/jiyinyiyong/swift-is-like-go"
+  "homepage": "https://github.com/Nilhcem/swift-is-like-kotlin"
 }
