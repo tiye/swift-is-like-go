@@ -1,5 +1,5 @@
 #!/usr/bin/env coffee
-project = 'swift-is-like-go'
+project = 'swift-is-like-kotlin'
 
 require 'shelljs/make'
 path = require 'path'
@@ -32,20 +32,3 @@ target.patch = ->
     file: 'package.json'
     options:
       at: 'patch'
-
-target.rsync = ->
-  mission.rsync
-    file: './'
-    dest: 'tiye:~/repo/swift-is-like-go/'
-    options:
-      exclude: [
-        'node_modules/'
-        'bower_components/'
-        "code"
-        'cirru'
-        'coffee'
-        'README.md'
-        'js'
-        '.git/'
-        'png/*.jpg'
-      ]
