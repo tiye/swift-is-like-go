@@ -45,13 +45,13 @@ html
       .title BASICS
       .case (.name "Arrays") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/arrays.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/arrays.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/arrays.kt)
       .case (.name "Maps") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/maps.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/maps.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/maps.kt)
       .case (.name "Empty Collections") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/empty-collections.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/empty-collections.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/empty-collections.kt)
 
     .section
       .title FUNCTIONS
