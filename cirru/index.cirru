@@ -21,25 +21,25 @@ html
       .title BASICS
       .case (.name "Hello World") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/hello-world.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/hello-world.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/hello-world.kt)
       .case (.name "Variables And Constants") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/variables-and-constants.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/variables-and-constants.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/variables-and-constants.kt)
       .case (.name "Explicit Types") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/explicit-types.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/explicit-types.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/explicit-types.kt)
       .case (.name "Type Coercion") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/type-coercion.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/type-coercion.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/type-coercion.kt)
       .case (.name "String Interpolation") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/string-interpolation.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/string-interpolation.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/string-interpolation.kt)
       .case (.name "Range Operator") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/range-operator.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/range-operator.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/range-operator.kt)
       .case (.name "Inclusive Range Operator") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/inclusive-range-operator.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/inclusive-range-operator.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/inclusive-range-operator.kt)
 
     .section
       .title BASICS
