@@ -1,26 +1,10 @@
 
-Swift is like Go
+Swift is like Kotlin
 ------
 
-Page: http://repo.tiye.me/swift-is-like-go/
+Page: http://nilhcem.github.io/swift-is-like-kotlin/
 
-Swift is not that like Go, though.
-Especially for the Object Oriented Programming part.
-
-### Contributors
-
-* [@chai2010](https://github.com/chai2010/swift-is-like-go)
-
-### Better one
-
-Yes, there is a better one on **Hyperpolyglot**:
-
-C, Go, Swift: a side-by-side reference sheet http://hyperpolyglot.org/c
-
-### Inspired
-
-* like Scala: https://leverich.github.io/swiftislikescala/
-* Like C# http://swiftcomparsion.qiniudn.com/
+Shamefully forked from the amazing [swift-is-like-go](https://github.com/jiyinyiyong/swift-is-like-go)
 
 ### License
 
