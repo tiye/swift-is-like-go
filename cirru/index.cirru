@@ -3,19 +3,17 @@ doctype
 
 html
   head
-    title "Swift is like Go"
+    title "Swift is like Kotlin"
     meta (:charset utf-8)
     link (:rel stylesheet) (:href css/style.css)
   body
     a (:target _blank)
-      :href https://github.com/jiyinyiyong/swift-is-like-go
-      img#fork-me (:src http://jiyinyiyong.u.qiniudn.com/fork-me.png)
+      :href https://github.com/Nilhcem/swift-is-like-kotlin
+      img#fork-me (:src http://nilhcem.github.io/swift-is-like-kotlin/fork-me.png)
     #note
-      = "Fork the repo if you want to help improve it. :)"
-      br
-      = "You may also check "
-      a (:href http://hyperpolyglot.org/c) (:target _blank)
-        = "Hyperpolyglot C, Go, Swift: a side-by-side reference sheet"
+      = "Shamefully forked from "
+      a (:href http://repo.tiye.me/swift-is-like-go/) (:target _blank)
+        = "Swift is like Go"
     .section
       .title BASICS
       .case (.name "Hello World") $ .pair
