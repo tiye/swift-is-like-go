@@ -80,22 +80,22 @@ html
       .title CLASSES
       .case (.name "Declaration") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/declaration.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/declaration.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/declaration.kt)
       .case (.name "Usage") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/usage.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/usage.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/usage.kt)
       .case (.name "Subclass") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/subclass.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/subclass.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/subclass.kt)
       .case (.name "Checking Type") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/checking-type.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/checking-type.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/checking-type.kt)
       .case (.name "Downcasting") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/downcasting.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/downcasting.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/downcasting.kt)
       .case (.name "Protocol") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/protocol.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/protocol.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/protocol.kt)
       .case (.name "Extensions") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/extensions.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/extensions.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/extensions.kt)
