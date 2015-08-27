@@ -14,7 +14,7 @@ MIT
 
 For it to add yours.
 
-```
+```bash
 npm i # install dependencies to build tools
 ./make.coffee dev # build html
 ```
