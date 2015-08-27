@@ -11,6 +11,9 @@ html
       :href https://github.com/Nilhcem/swift-is-like-kotlin
       img#fork-me (:src http://nilhcem.github.io/swift-is-like-kotlin/fork-me.png)
     #note
+      b
+        = "Swift is like Kotlin"
+      br
       = "Shamefully forked from "
       a (:href http://repo.tiye.me/swift-is-like-go/) (:target _blank)
         = "Swift is like Go"
