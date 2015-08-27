@@ -57,25 +57,25 @@ html
       .title FUNCTIONS
       .case (.name "Functions") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/functions.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/functions.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/functions.kt)
       .case (.name "Tuple Return") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/tuple-return.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/tuple-return.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/tuple-return.kt)
       .case (.name "Variable Number Of Arguments") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/variable-number-of-arguments.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/variable-number-of-arguments.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/variable-number-of-arguments.kt)
       .case (.name "Function Type") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/function-type.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/function-type.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/function-type.kt)
       .case (.name "Map") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/map.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/map.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/map.kt)
       .case (.name "Sort") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/sort.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/sort.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/sort.kt)
       .case (.name "Named Arguments") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/named-arguments.swift)
-        .card (.lang Go) $ pre.code $ code (@insert ../code/named-arguments.go)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/named-arguments.kt)
     .section
       .title CLASSES
       .case (.name "Declaration") $ .pair
