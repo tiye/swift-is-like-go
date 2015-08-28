@@ -1,6 +1,6 @@
 func sumOf(numbers ...int) int {
     var sum = 0
-    for number := range(numbers) {
+    for _, number := range(numbers) {
         sum += number
     }
     return sum
