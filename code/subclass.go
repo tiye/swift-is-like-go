@@ -22,7 +22,7 @@ func NewSquare(sideLength float64, name string) *Square {
     }
 }
 func (p *Square) Area() float64 {
-    return self.sideLength * p.sideLength
+    return p.sideLength * p.sideLength
 }
 func (p *Square) SimpleDescription() string {
     return fmt.Sprintf("A square with sides of length %d.", p.sideLength)
