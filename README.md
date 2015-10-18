@@ -10,6 +10,8 @@ Especially for the Object Oriented Programming part.
 ### Contributors
 
 * [@chai2010](https://github.com/chai2010/swift-is-like-go)
+* [@octo](https://github.com/octo/swift-is-like-go)
+* [@zhangxiaolian1991](https://github.com/zhangxiaolian1991/swift-is-like-go)
 
 ### Better one
 
@@ -30,7 +32,7 @@ MIT
 
 For it to add yours.
 
-```
+```bash
 npm i # install dependencies to build tools
 ./make.coffee dev # build html
 ```
