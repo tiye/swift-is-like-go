@@ -3,5 +3,5 @@ protocol Nameable {
 }
 
 func f<T: Nameable>(x: T) {
-    println("Name is " + x.name())
+    print("Name is " + x.name())
 }
