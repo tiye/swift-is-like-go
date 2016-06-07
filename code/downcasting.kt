@@ -1,4 +1,5 @@
-for (obj in someObjects) {
-    val movie = obj as Movie
-    println("Movie: '${movie.name}', dir. ${movie.director}")
+for (current in someObjects) {
+    if (current is Movie) {
+        println("Movie: '${current.name}', dir. ${current.director}")
+    }
 }

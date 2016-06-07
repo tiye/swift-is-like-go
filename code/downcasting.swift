@@ -1,5 +1,5 @@
-for object in someObjects {
-    if let movie = object as? Movie {
+for current in someObjects {
+    if let movie = current as? Movie {
         print("Movie: '\(movie.name)', dir. \(movie.director)")
     }
 }
