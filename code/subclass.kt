@@ -1,4 +1,4 @@
-open class NamedShape(var name: String) {
+open class NamedShape(val name: String) {
     var numberOfSides = 0
 
     open fun simpleDescription() = "A shape with $numberOfSides sides."
@@ -14,6 +14,6 @@ class Square(var sideLength: BigDecimal, name: String) : NamedShape(name) {
     override fun simpleDescription() = "A square with sides of length $sideLength."
 }
 
-var test = Square(BigDecimal("5.2"), "square")
+val test = Square(BigDecimal("5.2"), "square")
 test.area()
 test.simpleDescription()
