@@ -29,6 +29,6 @@ class Square: NamedShape {
     }
 }
 
-let test = Square(sideLength: 5.2)
+let test = Square(sideLength: 5.2, name: "square")
 test.area()
 test.simpleDescription()
