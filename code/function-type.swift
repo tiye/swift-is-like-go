@@ -4,5 +4,5 @@ func makeIncrementer() -> (Int -> Int) {
     }
     return addOne
 }
-var increment = makeIncrementer()
+let increment = makeIncrementer()
 increment(7)

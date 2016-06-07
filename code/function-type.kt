@@ -4,7 +4,7 @@ fun makeIncrementer(): (Int) -> Int {
     }
     return addOne
 }
-var increment = makeIncrementer()
+val increment = makeIncrementer()
 increment(7)
 
 // makeIncrementer() can also be written in a shorter way:
