@@ -1,4 +1,4 @@
-var occupations = hashMapOf(
+val occupations = mutableMapOf(
     "Malcolm" to "Captain",
     "Kaylee" to "Mechanic"
 )
