@@ -1,1 +1,2 @@
-[1, 5, 3, 12, 2].sort()
+var mutableArray = [1, 5, 3, 12, 2]
+mutableArray.sort()
