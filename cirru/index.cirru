@@ -90,6 +90,9 @@ html
       .case (.name "Checking Type") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/checking-type.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/checking-type.kt)
+      .case (.name "Pattern Matching") $ .pair
+        .card (.lang Swift) $ pre.code $ code (@insert ../code/pattern-matching.swift)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/pattern-matching.kt)
       .case (.name "Downcasting") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/downcasting.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/downcasting.kt)
