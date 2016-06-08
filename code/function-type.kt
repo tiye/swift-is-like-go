@@ -7,5 +7,5 @@ fun makeIncrementer(): (Int) -> Int {
 val increment = makeIncrementer()
 increment(7)
 
-// makeIncrementer() can also be written in a shorter way:
+// makeIncrementer can also be written in a shorter way:
 fun makeIncrementer() = fun(number: Int) = 1 + number
