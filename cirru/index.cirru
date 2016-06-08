@@ -1,4 +1,3 @@
-
 doctype
 
 html
@@ -6,6 +5,10 @@ html
     title "Swift is like Kotlin"
     meta (:charset utf-8)
     link (:rel stylesheet) (:href css/style.css)
+    link (:rel stylesheet) (:href css/highlightjs-github.css)
+    script (:src js/highlight.9.4.0.js)
+    script "hljs.initHighlightingOnLoad();"
+
   body
     a (:target _blank)
       :href https://github.com/Nilhcem/swift-is-like-kotlin
