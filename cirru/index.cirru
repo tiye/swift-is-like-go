@@ -14,8 +14,8 @@ html
       :href https://github.com/Nilhcem/swift-is-like-kotlin
       img#fork-me (:src http://nilhcem.github.io/swift-is-like-kotlin/fork-me.png)
     #note
-      b
-        = "Swift is like Kotlin"
+      = "Swift is like Kotlin"
+
     .section
       .title BASICS
       .case (.name "Hello World") $ .pair
@@ -75,6 +75,7 @@ html
       .case (.name "Named Arguments") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/named-arguments.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/named-arguments.kt)
+
     .section
       .title CLASSES
       .case (.name "Declaration") $ .pair
