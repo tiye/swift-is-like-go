@@ -16,10 +16,6 @@ html
     #note
       b
         = "Swift is like Kotlin"
-      br
-      = "Shamefully forked from "
-      a (:href http://repo.tiye.me/swift-is-like-go/) (:target _blank)
-        = "Swift is like Go"
     .section
       .title BASICS
       .case (.name "Hello World") $ .pair
