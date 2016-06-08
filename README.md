@@ -1,18 +1,15 @@
 
-Swift is like Kotlin
-------
+# Swift is like Kotlin
 
 Page: http://nilhcem.github.io/swift-is-like-kotlin/
 
-Shamefully forked from the amazing [swift-is-like-go](https://github.com/jiyinyiyong/swift-is-like-go)
+Programmatically inspired from [swift-is-like-go](https://github.com/jiyinyiyong/swift-is-like-go) and visually inspired from [swiftislikescala](https://github.com/leverich/swiftislikescala)
 
 ### License
 
 MIT
 
 ### Develop
-
-For it to add yours.
 
 ```bash
 npm i # install dependencies to build tools
