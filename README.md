@@ -1,10 +1,10 @@
 
-Swift is like Go
+[Swift is like Go](http://repo.tiye.me/jiyinyiyong/swift-is-like-go/)
 ------
 
-Read http://repo.tiye.me/jiyinyiyong/swift-is-like-go/
+Also suggesting:
 
-Also: Hyperpolyglot -- C, Go, Swift: a side-by-side reference sheet http://hyperpolyglot.org/c
+> C, Go, Swift: a side-by-side reference sheet http://hyperpolyglot.org/c
 
 ### Develop
 
@@ -13,7 +13,7 @@ yarn
 yarn build
 ```
 
-HTML is generated from `cirru/index.cirru`, based on 2014 technology https://github.com/Cirru/cirru-html .
+HTML is generated from `index.cirru`, based [cirru-html](https://github.com/Cirru/cirru-html).
 
 ### Contributors
 

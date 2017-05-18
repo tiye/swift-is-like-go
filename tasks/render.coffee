@@ -10,8 +10,10 @@ cirruHtml.setResolver (basePath, child, scope) ->
   fs.readFileSync dest, 'utf8'
 
 main = ->
-  script = fs.readFileSync (path.join __dirname, '../cirru/index.cirru'), 'utf8'
-  html = cirruHtml.render script, {'@filename': 'cirru/index.cirru'}
+  script = fs.readFileSync (path.join __dirname, '../index.cirru'), 'utf8'
+  # index.cirru shoud base PWD, i.e. project root
+  html = cirruHtml.render script, {'@filename': 'index.cirru'}
   fs.writeFileSync (path.join __dirname, '../build/index.html'), html
+  console.log 'Wrote to build/index.html'
 
 main()
