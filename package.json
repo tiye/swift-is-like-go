@@ -4,18 +4,17 @@
   "description": "Swift is like Go ------",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "coffee tasks/render.coffee",
+    "up": "bash tasks/rsync.sh"
   },
   "author": "jiyinyiyong",
   "license": "MIT",
   "devDependencies": {
-    "mission": "0.0.7",
-    "shelljs": "^0.3.0"
+    "cirru-html": "^0.2.2",
+    "coffee-script": "^1.12.6"
   },
-  "dependencies": {
-    "mission": "^0.0.7",
-    "shelljs": "^0.3.0"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/jiyinyiyong/swift-is-like-go.git"

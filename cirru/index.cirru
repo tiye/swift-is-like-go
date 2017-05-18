@@ -4,8 +4,11 @@ doctype
 html
   head
     title "Swift is like Go"
+    link (:rel icon)
+      :href http://logo.cirru.org/cirru-32x32.png
+      :type image/png
     meta (:charset utf-8)
-    link (:rel stylesheet) (:href css/style.css)
+    style (@insert ../css/style.css)
   body
     a (:target _blank)
       :href https://github.com/jiyinyiyong/swift-is-like-go
@@ -41,7 +44,7 @@ html
         .card (.lang Go) $ pre.code $ code (@insert ../code/inclusive-range-operator.go)
 
     .section
-      .title BASICS
+      .title COLLECTIONS
       .case (.name "Arrays") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/arrays.swift)
         .card (.lang Go) $ pre.code $ code (@insert ../code/arrays.go)
