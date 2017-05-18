@@ -86,3 +86,7 @@ body * {
     font-weight: 100;
     line-height: 2em;
 }
+
+.hljs {
+    background-color: transparent;
+}
