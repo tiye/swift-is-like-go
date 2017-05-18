@@ -41,7 +41,7 @@ html
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/inclusive-range-operator.kt)
 
     .section
-      .title BASICS
+      .title COLLECTIONS
       .case (.name "Arrays") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/arrays.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/arrays.kt)
