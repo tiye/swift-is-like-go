@@ -13,7 +13,7 @@ yarn
 yarn build
 ```
 
-HTML is generated from `index.cirru`, based [cirru-html](https://github.com/Cirru/cirru-html).
+HTML is generated from `index.cirru`, based [cirru-html](https://github.com/Cirru/cirru-html). Paste Cirru code into [Cirru Text Parser](http://repo.cirru.org/cirru-parser/) to understand it, [find out more](http://text.cirru.org/).
 
 ### Contributors
 
