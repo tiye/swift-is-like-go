@@ -24,7 +24,7 @@ HTML is generated from `index.cirru`, based [cirru-html](https://github.com/Cirr
 ### Inspired
 
 * like Scala: https://leverich.github.io/swiftislikescala/
-* Like C# http://swiftcomparsion.qiniudn.com/
+* Like C# ~~http://swiftcomparsion.qiniudn.com/~~ (a similiar page https://myquay.github.io/swift-is-like-c-sharp/)
 
 ### License
 
